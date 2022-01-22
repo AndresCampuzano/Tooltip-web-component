@@ -1,0 +1,19 @@
+{
+  "name": "web-components-yt-designcourse",
+  "version": "1.0.0",
+  "description": "Crash course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web",
+    "components",
+    "javascript"
+  ],
+  "author": "Andres Campuzano Garzon hello@andrescampuzano.com",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "2.5.1"
+  }
+}

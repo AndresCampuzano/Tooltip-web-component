@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tooltip Web Components</h1>
+      <p>
+        Tooltip yellow
+        <popup-notify bg_color="#f5dc00">
+          <span slot="message">
+            🏝 Web Components are a set of features that provide a standard
+            component model for the Web allowing for encapsulation and
+            interoperability of individual HTML elements.! 🏝</span
+          >
+        </popup-notify>
+      </p>
+      <p>
+        Tooltip purple
+        <popup-notify bg_color="#8b00f5" text_color="#fafafa">
+          <span slot="message">
+            🏝 Web Components are a set of features that provide a standard
+            component model for the Web allowing for encapsulation and
+            interoperability of individual HTML elements.! 🏝</span
+          >
+        </popup-notify>
+      </p>
+      <p>
+        Tooltip white
+        <popup-notify>
+          <span slot="message">
+            🏝 Web Components are a set of features that provide a standard
+            component model for the Web allowing for encapsulation and
+            interoperability of individual HTML elements.! 🏝</span
+          >
+        </popup-notify>
+      </p>
+    </div>
+    <script src="popUpNotify.js"></script>
+  </body>
+</html>

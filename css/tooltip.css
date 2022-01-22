@@ -1,0 +1,26 @@
+/*svg {*/
+/*    width: 1em;*/
+/*}*/
+/*.tooltip-container {*/
+/*    cursor: pointer;*/
+/*    display: inline-block;*/
+/*    position: relative;*/
+/*    z-index: 2;*/
+/*}*/
+/*.tooltip-container__icon-cancel {*/
+/*    display: none;*/
+/*}*/
+/*.tooltip-container__tooltip-notify {*/
+/*    position: absolute;*/
+/*    bottom: 125%;*/
+/*    z-index: 3;*/
+/*    width: 300px;*/
+/*    background-color: #ffffff;*/
+/*    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);*/
+/*    font-size: .8em;*/
+/*    border-radius: .5em;*/
+/*    padding: 1em;*/
+/*    transform: scale(0);*/
+/*    transform-origin: bottom left;*/
+/*    transition: transform .5s cubic-bezier(0.860, 0.000, 0.070, 1.000);*/
+/*}*/
